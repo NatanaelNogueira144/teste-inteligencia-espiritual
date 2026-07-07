@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Filters\UsersFilter;
-use App\Models\{ Answer, Question, Result, User };
+use App\Models\{ Answer, Result, User };
 use App\Http\Requests\{ StoreUserRequest, UpdateUserRequest };
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
